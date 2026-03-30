@@ -1,0 +1,286 @@
+body {
+    background-color: #fff;
+    color: #777;
+}
+::-webkit-scrollbar {
+    width:0px;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.nav-container{
+    text-align: center;
+    font-size: 30px;
+    background-color: #040404;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height:40px;
+    padding: 0;
+    margin: 0;
+    width:100vw;
+}
+
+
+.nav-link {
+    color:#d9c3a9;
+    padding: 0px 200px;
+    font-family: "Delius Swash Caps", cursive;
+    top: 0;
+    z-index: 100;
+    margin: 0;
+}
+
+.description {
+    text-align:left;
+    font-family: "Delius Swash Caps", cursive;
+}
+.information {
+    text-align: left;
+    font-size: 30px;
+    font-family: "Delius Swash Caps", cursive;
+}
+h2 {
+    font-weight: 300px;
+    color: #bfc2bf;
+    font-size: 65px;
+    text-align: center;
+    
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dog {
+    color: #bfc2bf;
+    font-family: "Delius Swash Caps", cursive;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+.strong {
+    font-weight: bold;
+    font-family: "Delius Swash Caps", cursive;
+    text-align:left;
+}
+.h2-text-format {
+    text-align:left;
+    font-family: "Delius Swash Caps", cursive;
+    font-size:30px;
+    color:#3a3a3a
+}
+.proper-meals-title {
+    color:#ffffff;
+    -webkit-text-stroke: 0.5px #040404;
+    font-family: "Delius Swash Caps", cursive;
+     padding:0;
+    margin:0;
+}
+.proper-meals-list {
+    font-size:30px;
+    color:black;
+    font-family: "Delius Swash Caps", cursive;
+     padding:0;
+    margin:0;
+}
+.proper-meals-text {
+    text-align:left;
+        font-family: "Delius Swash Caps", cursive;
+    font-size:50px;
+    color:black;
+     padding:0;
+    margin:0;
+
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+h1{
+    text-align: center;
+    width: 100%;
+
+    /* Images code*/
+    
+}
+#hero-image {
+    height: 95vh;
+    width: 100vw;
+    padding-top: 1px;
+    background: #c4c8c9 url('images/cavapoo.jpg') no-repeat center;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+}
+#hero-image-Proper-meals {
+    background: url('images/proper meals cavapoos.jpg') no-repeat center;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+#david-linked-image {
+    background: url('images/cavapoo puppies.webp') no-repeat center;
+    height:50vh;
+    position:absolute;
+    left:50%;
+    width:50vw;
+    rotate: -20deg;
+    padding:0;
+    margin:0;
+    top:2000px;
+}
+.hidden-easter-egg{
+    background: url('images/Jeff.avif') no-repeat center;
+    height:100vh;
+    width:100vw;
+    position:absolute;
+    background-size:cover;
+}
+
+#hero-image-proper-care {
+    height: 95vh;
+    width: 100vw;
+    padding-top: 1px;
+    background: #333334 url('images/Proper care.webp') no-repeat center;
+    background-position:top;
+    background-attachment: fixed;  
+    -webkit-text-stroke: .05px black;
+    background-size:cover;
+
+}
+.content-img {
+    background: #070707 url('images/Commmon teething issues.jpg') no-repeat center;
+    height:575px;
+    width: 1150px;
+    padding:0;
+    margin:0;
+    position:absolute;
+    left:1250px;
+    bottom:-1000px;
+    rotate:-10deg
+}
+.hero-image-training {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 1px;
+    background: #333334 url('images/cavapoo training.jpg') no-repeat center;
+    background-position:top;
+    background-attachment: fixed;
+    -webkit-text-stroke: .05px white;
+    background-size:cover;
+}
+
+.training-linked-img {
+    background: url('images/Cavapoo learning how to sit.jpg') no-repeat center;
+    height:70vh;
+    padding:0;
+    margin:0;
+    position:right;
+}
+
+.puppy-img {
+    text-align: center;
+    font-size:35px;
+    font-family: "Delius Swash Caps", cursive;
+}
+.grass {
+    width: 1456px;
+    background-image: url('images/grass.jpg'); 
+    height:1000px;
+    position:absolute;
+    transform: translate(0px,125px);
+    rotate: 10deg;
+}
+#brand-image-1{
+    height:25vh;
+    width:25vh;
+     margin: 0%;
+    padding: 0%;
+    right:1000px;
+    transform: translate(100px,-70);
+}
+#brand-image-2 {
+    height:25vh;
+    width:25vh;
+    transform: translate(400px,-350px);
+    padding:0%;
+    margin:0%;
+}
+#brand-image-3 {
+    height:25vh;
+    width:25vh;
+    transform:translate(800px,-715px);
+     padding:0%;
+    margin:0%;
+}
+.Image-meme-space-filler {
+   background:url('images/random\ meme.jpg') no-repeat center;
+   border:#040404 solid;
+   height:48vh;
+   width:33vw;
+transform:translate(1500px,-1200px);
+ padding:0%;
+    margin:0%;
+}
+img {
+     height:25vh;
+    width:25vh;
+    border:rgb(4, 4, 4) solid;
+  margin:0%;
+  padding:0%;
+}
+
+/*ordered list code*/
+
+.practice {
+    color:#1c1b1b;
+    font-family: "Delius Swash Caps", cursive;
+}
+.ordered-list-items {
+    font-size: 30px;
+    font-family: "Delius Swash Caps", cursive;
+}
+.ordered-list-title {
+    text-align:left;
+    color:#777;
+    font-family: "Delius Swash Caps", cursive;
+}
+
